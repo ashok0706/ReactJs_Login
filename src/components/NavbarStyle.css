@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("/src/components/images/Premium\ Vector\ _\ Background\ in\ the\ concept\ of\ technology_.jpg");
+    background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.title{
+    text-align: center;
+    color:  rgb(133, 179, 243);
+    font-size: 60px;
+    font-weight:650;
+    margin:40px 20px;
+}
+.navbar{
+display: flex;
+justify-content:left
+;
+/* background-color: rgb(81, 81, 81); */
+padding-top: 7px;
+padding-bottom: 7px;
+/* box-shadow: 3px 3px 10px rgb(136, 136, 136); */
+border-bottom: 3px solid rgb(210, 210, 236) ;
+
+
+}
+.logo{
+    transform: translateX(90%);
+    /* font-size: large; */
+    color: aliceblue;
+   
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    list-style-type: none;
+   /* transform: translateX(-20%); */
+   /* font-weight: 500; */
+  
+}
+
+.navbar li{
+  
+    /* padding: 0, 40px; */
+    margin-left: 80px;
+    font-size:25px; 
+    font-weight: 500;
+    color: aliceblue;
+    transition: 0.5ms ;
+}
+.logo :hover, li :hover , h2:hover , button:hover{
+color: aquamarine;
+
+}
+
+h2{
+    color: aliceblue;
+margin: 0 50px;
+    font-size: 45px;
+
+}
+
+.form{
+    display: flex;
+    /* justify-content: space-evenly; */
+
+    transform: translateY(250px);
+  
+}
+
+input{
+    display: flex;
+    /* transform: translateY(250px) translateX(20%); */
+   width: 350px;
+   height: 45px;
+   border-radius: 5px;
+    margin: 20px;
+    font-size:  20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: aliceblue;
+   
+}
+form{
+    border:  2px solid aliceblue;
+   padding: 50px 10px;
+   transform: translateY(-40%);
+  box-shadow: 3px 3px 10px rgb(136, 136, 136);
+  margin: 0 80px;
+  backdrop-filter: blur(3px);
+
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+     margin: 20px 20px;
+     font-size: 20px;
+     background-color: rgb(8, 21, 141);
+     color: aliceblue;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 251, 255);
+    margin-bottom: 50px;
+}
+
+.error{
+    color: aliceblue;
+    font-size: 20px;
+}
